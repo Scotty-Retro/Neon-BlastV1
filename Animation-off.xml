@@ -1,0 +1,33 @@
+<theme>
+   <formatVersion>7</formatVersion>
+
+<view name="system">
+
+         <image name="wallpaper1" extra="true">
+     </image>
+
+	   <image name="brightwallpapers" extra="true">
+     </image>
+
+	   <image name="darkwallpapers" extra="true">
+     </image>
+
+	   <image name="etchedwallpapers" extra="true">
+     </image>
+
+	  <image name="char" extra="true">
+     </image>
+
+	  <image name="char1" extra="true">
+     </image>
+
+	<image name="menu2frames" extra="true">
+     </image>
+
+	<video name="backgroundvideom2" extra="true">
+        <pos>0.5 0.4</pos>
+        <size>0.6 0.6</size>
+     </video>
+	</view>
+
+</theme>

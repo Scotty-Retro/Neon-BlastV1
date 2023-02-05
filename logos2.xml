@@ -1,0 +1,30 @@
+<theme>
+   <formatVersion>7</formatVersion>
+
+      <view name="system">
+
+     <image name="logo">
+       <linearSmooth>true</linearSmooth>
+         <path>./_inc/logos2/${system.theme}.png</path>
+	   <storyboard event="activate" repeatAt="1">
+	   <animation property="opacity" to="1" begin="0" duration="0" mode="linear"/>
+	   <animation property="scale" from="1.1" to="1.2" begin="0" duration="1000" mode="easeOut"/>
+	   <animation property="scale" from="1.2" to="1.1" begin="1000" duration="1000" mode="easeOut"/>
+	   </storyboard>
+	   </image>
+
+         <carousel name="systemcarousel">
+          <zIndex>43</zIndex>	      
+          <type>vertical_wheel</type>
+          <pos>0.34 0</pos>
+          <size>1 1</size>
+          <logoSize>0.155 0.155</logoSize>
+          <color>00000000</color>
+          <maxLogoCount>10</maxLogoCount>
+          <logoRotation>-7</logoRotation>
+          <logoRotationOrigin>2.50 0.5</logoRotationOrigin>
+          <logoAlignment>center</logoAlignment>       
+         </carousel>
+       </view>
+
+    </theme>

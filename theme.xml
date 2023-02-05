@@ -1,0 +1,138 @@
+<!--
+theme name:     Neon Blast
+version:        1.0
+author:         Scott Ocana
+email:          
+website:        
+license:        creative commons CC-BY-NC-SA
+based on:       "Carbon" by Eric Hettervik
+-->
+
+<?xml version="1.0" encoding="UTF-8"?>
+
+<theme defaultView="theme">
+<formatVersion>7</formatVersion>
+
+ <feature supported="carousel">
+   <view name="system">
+	<sound name="directory">
+    <path>./_inc/music</path>
+	</sound>	  
+   </view>
+</feature>
+
+<!---------------------------variable------------------------------------- -->
+
+   <include subset="menu" name="Menu 01">./Menu-01.xml</include>
+   <include subset="menu" name="Menu 02">./Menu-02.xml</include>
+   <include subset="menu" name="Menu 03">./Menu-03.xml</include>
+   <include subset="menu" name="Menu 04">./Menu-04.xml</include>
+   <include subset="menu" name="Menu 05">./Menu-05.xml</include>
+   <include subset="menu" name="Menu 06">./Menu-06.xml</include>
+   <include subset="menu" name="Menu 07">./Menu-07.xml</include>
+   <include subset="menu" name="Menu 08">./Menu-08.xml</include>
+   <include subset="menu" name="Menu 09">./Menu-09.xml</include>
+
+   <include subset="logo" name="neon logos">./neonlogos.xml</include>
+
+   <include subset="wallpapers" name="darkwallpapers">./darkwallpapers.xml</include>
+   <include subset="wallpapers" name="brightwallpapers">./brightwallpapers.xml</include>
+   <include subset="wallpapers" name="echedglowwallpapers">./etchedglowwallpapers.xml</include>
+
+    <include subset="Shader" name="Shader off">./art/shaders/off.xml</include>
+    <include subset="Shader" name="Shader 01">./art/shaders/scanlines.xml</include>
+    <include subset="Shader" name="Shader 02">./art/shaders/crt.xml</include>
+    <include subset="Shader" name="Shader 03">./art/shaders/scanlines3.xml</include>
+    <include subset="Shader" name="Shader 04">./art/shaders/scanlines4.xml</include>
+    <include subset="Shader" name="Shader 05">./art/shaders/scanlines5.xml</include>
+    <include subset="Shader" name="Shader 06">./art/shaders/scanlines10.xml</include>
+
+	<include subset="Animation" name="Animation on">./Animation-on.xml</include>
+    <include subset="Animation" name="Animation off">./Animation-off.xml</include>
+
+
+
+<!---------------------------screen------------------------------------- -->
+
+<view name="screen">
+<text name="clock">
+		<glowColor>101010</glowColor>
+		<fontSize>0.024</fontSize>
+		<color>ffffff</color>
+		<fontPath>./_inc/fonts/OpenSans-Bold.ttf</fontPath>
+		<pos>2 2</pos>
+		<size>0.05 0.058</size>
+		<verticalAlignment>right</verticalAlignment>
+		</text>
+		
+		
+     <controllerActivity name="controllerActivity">
+      <pos>0.01 0.010</pos>
+      <size>0.085 0.025</size>
+      <itemSpacing>0.003</itemSpacing>
+      <imagePath>./_inc/gamepad.svg</imagePath>
+      <color>FFFFFF1A</color>
+      <activityColor>ff00001A</activityColor>
+      <hotkeyColor>ffffff1A</hotkeyColor>
+    </controllerActivity>
+
+    <batteryIndicator name="batteryIndicator">
+      <pos>0.955 0.0125</pos>
+      <size>0.033 0.033</size>
+      <incharge>./_inc/battery/incharge.svg</incharge>
+      <full>./_inc/battery/full.svg</full>
+      <at75>./_inc/battery/75.svg</at75>
+      <at50>./_inc/battery/50.svg</at50>
+      <at25>./_inc/battery/25.svg</at25>
+      <empty>./_inc/battery/empty.svg</empty>
+      <color>FFFFFFA0</color>
+      </batteryIndicator>
+      <batteryIndicator name="batteryIndicator" tinyScreen="true">
+      <pos>0.915 0.013</pos>
+      <size>0.07 0.07</size>
+      </batteryIndicator>
+    </view>
+
+<!---------------------------menu------------------------------------- -->
+
+  <view name="menu">
+   
+      <menuText name="menutitle">
+         <fontPath>./_inc/fonts/OpenSans-Bold.ttf</fontPath>
+         <fontSize>0.04</fontSize>
+      </menuText>
+	  
+      <menuText name="menufooter">
+         <fontPath>./_inc/fonts/OpenSans-Bold.ttf</fontPath>
+         <fontSize>0.023</fontSize>
+      </menuText>
+	  
+    <menuText name="menutext">
+      <fontPath>./_inc/fonts/OpenSans-Bold.ttf</fontPath>
+      <fontSize>0.029</fontSize>
+      <selectorGradientType>horizontal</selectorGradientType>
+    </menuText>
+	
+    <menuTextSmall name="menutextsmall">
+      <fontPath>./_inc/OpenSans-Bold.ttf</fontPath>
+      <fontSize>0.022</fontSize>
+    </menuTextSmall>
+	
+    <menuBackground name="menubg">
+	  <path>./_inc/back.png</path>
+      <path>./_inc/frame.png</path>
+	  <cornerSize>32 32</cornerSize>
+    </menuBackground>
+
+</view> 
+
+<!---------------------------ADD TO GAMELISTS----------------------- -->
+
+<include name="basic">./basic.xml</include>
+<include name="detailed">./detailed.xml</include>
+<include name="video">./video.xml</include>
+<include name="grid">./grid.xml</include>
+<include name="gamecarousel">./gamecarousel.xml</include>
+<include name="gamebox">./gamebox.xml</include>
+
+   </theme>

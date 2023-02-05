@@ -1,0 +1,22 @@
+	
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+<formatVersion>7</formatVersion>
+
+<!---------------------------darkwallpapers------------------------------------- -->
+
+      <view name="system">
+
+	   <image name="darkwallpapers" extra="true">
+         <origin>0 0</origin>
+         <pos>0 0</pos>
+         <size>1 1</size>
+         <path>./_inc/darkwallpapers/${system.theme}.jpg</path>
+		 <zIndex>1</zIndex>
+      </image>
+	   <image name="wallpaper1" extra="true">
+        <visible>false</visible> 
+	</image>
+    </view>
+   
+   </theme>

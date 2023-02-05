@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+   <formatVersion>7</formatVersion>
+
+     <view name="system">	  
+
+<carousel name="systemcarousel">
+<defaultTransition>fade</defaultTransition>
+<zIndex>999</zIndex>
+<maxLogoCount>1</maxLogoCount>
+<color>ffffff00</color>
+<colorEnd>ffffff00</colorEnd>
+<color>00000000</color>
+<colorEnd>00000000</colorEnd>
+<logoSize>0.06 0.06</logoSize>
+<logoScale>3</logoScale>
+<size>1 1</size>
+<pos>0 0.31</pos>
+</carousel>
+
+	       <helpsystem name="help">
+	 <iconColor>FFFFFF</iconColor>
+     <fontSize>0.03</fontSize>
+     <origin>0.5 0.5</origin>
+     <pos>0.5 0.98</pos>
+     <fontPath>./_inc/FS_JC_bsicaunicode.ttf</fontPath>
+     </helpsystem>
+
+	   <image name="wallpaper1" extra="true">
+         <origin>0 0</origin>
+         <pos>0 0</pos>
+         <size>1 1</size>
+	 <path>./default/_inc/wall.jpg</path>
+         <path>./_inc/wallpaper1/${system.theme}.jpg</path>
+		 <zIndex>1</zIndex>
+      </image>
+
+	   <image name="menu8" extra="true">
+         <origin>0 0</origin>
+         <pos>0 0</pos>
+         <size>1 1</size>
+	 <path>./default/men8-d.png</path>
+         <path>./_inc/menu8frames/${system.theme}.png</path>
+		 <zIndex>2</zIndex>
+      </image>
+
+
+      <text name="systemInfo">
+	    <glowColor>000000</glowColor>
+        <pos>-0.003 0.9</pos>
+        <backgroundColor>00000000</backgroundColor>
+        <color>ffffff</color>
+        <fontPath>./_inc/fonts/FS_JC_bsicaunicode.ttf</fontPath>
+	    <fontSize>0.040</fontSize>
+        <zIndex>999</zIndex>
+      </text> 
+
+
+	  <image name="char1" extra="true">
+		<pos>-0.05 0</pos>
+		<maxSize>1 1</maxSize>
+		<color>ffffff</color>
+		<path>./default/char-d.png</path>
+		<path>./${system.theme}/char.png</path>
+		<zIndex>998</zIndex>
+	  </image>
+
+
+	 <video name="backgroundvideo8" extra="true">
+        <default>./_inc/assets/noise.mp4</default>
+        <visible>true</visible>
+        <path>{random}</path>   
+        <roundCorners>0.03</roundCorners>             
+        <pos>0.8 0.8</pos>
+        <size>0.3 0.3</size>
+        <origin>0.5 0.5</origin>
+        <showSnapshotNoVideo>true</showSnapshotNoVideo>
+        <showSnapshotDelay>true</showSnapshotDelay>
+        <color>FFFFFF</color>
+        <zIndex>999</zIndex>
+     </video>
+
+
+       </view>
+
+</theme>

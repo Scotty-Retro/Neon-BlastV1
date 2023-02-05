@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+<formatVersion>7</formatVersion>
+
+<!---------------------------basic------------------------------------- -->
+
+<view name="basic">	
+      <textlist name="gamelist">
+          <selectorImagePath>./_inc/selector2.png</selectorImagePath>
+         <selectorHeight>0.03</selectorHeight>
+         <selectorColor>ffffff00</selectorColor>
+         <primaryColor>ffffff</primaryColor>
+         <selectedColor>FF10F0</selectedColor>
+         <zIndex>5</zIndex>	      
+         <pos>0.49 0.16</pos>
+         <size>0.38 0.69</size>
+         <fontPath>./_inc/fonts/FS_JC_bsicaunicode.ttf</fontPath>
+         <fontSize>0.02</fontSize>
+         <forceUppercase>1</forceUppercase>
+         <alignment>center</alignment>      
+      </textlist> 
+
+ <image name="logo03" extra="true">
+        <pos>0.59 0.01</pos>
+        <maxSize>0.16 0.16</maxSize>
+		<path>./default/_inc/logo.png</path>
+		<path>./_inc/logos/${system.theme}.png</path>
+		<color>ffffff</color>
+	    <zIndex>400</zIndex>
+	</image>
+
+
+    <helpsystem name="help">
+	 <iconColor>FFFFFF</iconColor>
+     <fontSize>0.04</fontSize>
+     <origin>0.5 0.5</origin>
+     <pos>0.7 0.985</pos>
+       <fontPath>./_inc/fonts/FS_JC_bsicaunicode.ttf</fontPath>
+     </helpsystem>
+
+	 
+	 	        <image name="borde" extra="true">
+         <origin>0 0</origin>
+         <pos>0 0</pos>
+         <size>1 1</size>        
+         <path>./_inc/borde.png</path>
+         <zIndex>999</zIndex>          
+      </image> 
+
+	<video name="char frame" extra="true">
+    <origin>0 0</origin>
+    <pos>0 0</pos>
+    <size>1 1</size>
+    <path>./default/charframe.mp4</path>
+    <path>./${system.theme}/_inc/character.mp4</path>
+    <zIndex>1</zIndex> 
+    </video> 
+
+
+
+		<text name="logoText">
+		<pos>0.691 0.444</pos>
+	    <fontSize>0.11</fontSize>
+		<fontPath>./_inc/fonts/FS_JC_bsicaunicode.ttf</fontPath>
+	    <size>0.57 0.1</size>
+		<alignment>center</alignment>
+        <color>FFFFFFB3</color>
+        <forceUppercase>1</forceUppercase>
+	    <rotation>-90</rotation>   
+	    <zIndex>999</zIndex>
+    </text>
+</view>
+   
+   </theme>

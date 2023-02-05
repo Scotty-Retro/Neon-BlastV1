@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+<formatVersion>7</formatVersion>
+
+<!---------------------------detailed------------------------------------- -->
+
+   <view name="detailed">
+         <textlist name="gamelist">
+         <zIndex>5</zIndex>
+         <primaryColor>ffffff</primaryColor>
+         <selectedColor>ff0000</selectedColor>	      
+         <pos>0.58 0.12</pos>
+         <size>0.33 0.49</size>
+         <fontPath>./_inc/fonts/FS_JC_bsicaunicode.ttf</fontPath>
+         <fontSize>0.017</fontSize>
+         <forceUppercase>1</forceUppercase>
+         <alignment>center</alignment>      
+      </textlist>
+
+	<video name="detailedframe" extra="true">
+		<path>./default/detailedbackground-d.mp4</path>
+		<path>./_inc/detailedbackgrounds/${system.theme}.mp4</path>
+		<size>1 1</size>
+		<pos>0 0</pos>
+		<origin>0 0</origin>
+		<zIndex>1</zIndex>
+	</video>
+	  
+	  	  
+      <image name="md_image">
+	  	<pos>0.29 0.54</pos>
+        <origin>0.5 0.5</origin>
+		<size>0.4 0.50</size>
+         <zIndex>3</zIndex>         
+      </image>  
+
+      <image name="detailedtop" extra="true">
+         <origin>0 0</origin>
+         <pos>0 0</pos>
+         <size>1 1</size>        
+         <path>./_inc/detailedbackgrounds/detailed.png</path>
+         <zIndex>5</zIndex>          
+      </image> 
+	  
+     <helpsystem name="help">
+	 <iconColor>FFFFFF</iconColor>
+     <fontSize>0.02</fontSize>
+     <origin>0.5 0.5</origin>
+     <pos>0.5 0.985</pos>
+       <fontPath>./_inc/fonts/FS_JC_bsicaunicode.ttf</fontPath>
+     </helpsystem>
+
+	<image name="logo03" extra="true">
+        <pos>0.22 0.84</pos>
+        <maxSize>0.15 0.15</maxSize>
+		<path>./default/_inc/logo.png</path>
+		<path>./_inc/logos/${system.theme}.png</path>
+		<color>ffffff</color>
+           <storyboard>
+           <animation property="x" from="-2" to="0.22" duration="2000" autoreverse="false" begin="-2"/>
+           </storyboard>
+	    <zIndex>400</zIndex>
+	</image>
+
+
+		<text name="logoText" extra="true">
+		<pos>0.691 0.444</pos>
+	    <fontSize>0.11</fontSize>
+		<fontPath>./_inc/fonts/FS_JC_bsicaunicode.ttf</fontPath>
+	    <size>0.57 0.1</size>
+		<alignment>center</alignment>
+        <color>FFFFFF</color>
+        <forceUppercase>1</forceUppercase>
+	    <rotation>-90</rotation>   
+	    <zIndex>999</zIndex>
+    </text>
+	  
+
+	  	<video name="md_video">
+			<pos>0.29 0.54</pos>
+			<size>0.4 0.50</size>
+			<origin>0.5 0.5</origin>
+			<showSnapshotNoVideo>true</showSnapshotNoVideo> 
+			<showSnapshotDelay>false</showSnapshotDelay>
+		    <loops>3</loops>
+			<delay>0.5</delay> 
+			<effect>none</effect>
+			<zIndex>4</zIndex> 
+		</video>
+
+	  <image name="md_marquee">
+       <pos>0.74 0.05</pos>
+       <maxSize>0.20 0.11</maxSize>
+	   <storyboard event="activate">
+           <animation property="y" from="-1" to="0.05" duration="500" autoreverse="false" begin="-1"/>
+           </storyboard>
+       <zIndex>10</zIndex>
+       </image>
+
+	  <text name="md_lbl_rating, md_lbl_releasedate, md_lbl_developer, md_lbl_publisher, md_lbl_genre, md_lbl_lastplayed, md_lbl_playcount, md_rating, md_developer, md_publisher, md_genre, md_playcount, md_lastplayed">
+      <pos>1 1</pos>
+      </text>
+      <text name="md_lbl_rating,md_lbl_releasedate, md_lbl_developer, md_lbl_publisher, md_lbl_genre, md_lbl_lastplayed, md_lbl_playcount,md_lbl_players,md_developer, md_publisher, md_genre, md_playcount, md_lastplayed,md_description,md_players,md_releasedate">
+         <color>ffffff</color>
+         <fontPath>./_inc/fonts/FS_JC_bsicaunicode.ttf</fontPath>
+         <fontSize>0.020</fontSize>
+      </text>
+      <text name="md_lbl_rating">
+         <pos>1.3 0.66</pos>
+         <size>0.2 0.035</size>
+         <color>7FABFE</color>
+         <zIndex>5</zIndex>                 
+      </text>
+      <rating name="md_rating">
+         <zIndex>5</zIndex>       
+         <pos>0.75 0.65</pos>
+         <size>0.04 0.04</size>
+         <filledPath>./_inc/images/star_filled.png</filledPath>
+         <unfilledPath>./_inc/images/star_empty.png</unfilledPath>
+      </rating>
+      <text name="md_lbl_players">
+         <pos>0.545 0.63</pos>
+         <size>0.1 0.035</size>
+         <zIndex>43</zIndex>         
+      </text>
+      <text name="md_players">
+         <pos>0.61 0.63</pos>
+         <size>0.0375 0.035</size>
+         <zIndex>43</zIndex>
+         <color>ffffff</color>                  
+      </text>
+      <text name="md_lbl_releasedate">
+         <pos>0.545 0.66</pos>
+         <size>0.12 0.035</size>
+         <zIndex>43</zIndex>         
+      </text>
+      <datetime name="md_releasedate">
+         <pos>0.62 0.66</pos>
+         <size>0.0750 0.035</size>
+         <zIndex>43</zIndex>
+         <color>ffffff</color>                  
+      </datetime>
+      <text name="md_lbl_genre">
+         <pos>0.545 0.69</pos>
+         <size>0.12 0.035</size>
+         <zIndex>5</zIndex>                   
+      </text>
+      <text name="md_genre">
+         <pos>0.59 0.69</pos>
+         <size>0.10 0.035</size>
+         <color>ffffff</color>         
+         <zIndex>5</zIndex>         
+      </text>         
+      <text name="md_lbl_publisher">
+         <pos>1.3 0.51</pos>
+         <size>0.1 0.035</size>
+         <color>ffffff</color>
+         <zIndex>5</zIndex>                   
+      </text>
+      <text name="md_publisher">
+         <pos>1.39 0.51</pos>
+         <size>0.12 0.035</size>
+         <color>F3E804</color>         
+         <zIndex>5</zIndex>         
+      </text>
+      <text name="md_lbl_developer">
+         <pos>1.3 0.56</pos>
+         <size>0.1 0.035</size>
+         <color>ffffff</color>
+         <zIndex>5</zIndex>                   
+      </text>
+      <text name="md_developer">
+         <pos>1.39 0.56</pos>
+         <size>0.12 0.035</size>
+         <color>F3E804</color>         
+         <zIndex>5</zIndex>         
+      </text>
+      <text name="md_lbl_lastplayed">
+         <pos>1.3 0.61</pos>
+         <size>0.12 0.035</size>
+         <zIndex>43</zIndex>         
+      </text>
+      <datetime name="md_lastplayed">
+         <pos>1.39 0.61</pos>
+         <size>0.12 0.035</size>
+         <zIndex>43</zIndex>
+         <color>F3E804</color>                  
+      </datetime>                            
+      <text name="md_description">
+         <pos>0.545 0.73</pos>
+         <size>0.40 0.15</size>
+         <color>ffffff</color>
+         <alignment>left</alignment>   
+         <zIndex>5</zIndex>         
+      </text>
+    </view>
+   
+   </theme>

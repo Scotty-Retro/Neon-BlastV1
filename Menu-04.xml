@@ -1,0 +1,62 @@
+<theme>
+   <formatVersion>7</formatVersion>
+
+      <view name="system">
+
+         <carousel name="systemcarousel">
+          <zIndex>43</zIndex>	      
+          <type>vertical_wheel</type>
+          <pos>0.34 0</pos>
+          <size>1 1</size>
+          <logoSize>0.155 0.155</logoSize>
+          <color>00000000</color>
+          <maxLogoCount>19</maxLogoCount>
+          <logoRotation>-7</logoRotation>
+          <logoRotationOrigin>2.50 0.5</logoRotationOrigin>
+          <logoAlignment>center</logoAlignment>       
+         </carousel>
+		 
+
+         <image name="pointer" extra="true">
+          <pos>0.966 0.50</pos>
+          <origin>0.5 0.5</origin>
+          <size>0.075 0.175</size>
+	  <path>./_inc/assets/pointer/default.png</path>
+          <path>./art/sistemas/pointer/${system.theme}.png</path>
+          <zIndex>60</zIndex>
+         </image>
+
+
+      <text name="systemInfo">
+	    <glowColor>000000</glowColor>
+        <pos>-0.12 0.89</pos>
+        <backgroundColor>00000000</backgroundColor>
+        <color>ffffff</color> 
+        <fontPath>./_inc/fonts/FS_JC_bsicaunicode.ttf</fontPath>
+	    <fontSize>0.040</fontSize>
+        <zIndex>999</zIndex>
+      </text> 
+
+
+	   <image name="wallpaper1" extra="true">
+         <origin>0 0</origin>
+         <pos>0 0</pos>
+         <size>1 1</size>
+	 <path>./default/_inc/wall.jpg</path>
+         <path>./_inc/wallpaper1/${system.theme}.jpg</path>
+		 <zIndex>1</zIndex>
+      </image>
+
+	  
+	 	  
+	       <helpsystem name="help">
+	 <iconColor>FFFFFF</iconColor>
+     <fontSize>0.03</fontSize>
+     <origin>0.5 0.5</origin>
+     <pos>0.46 0.98</pos>
+     <fontPath>./_inc/FS_JC_bsicaunicode.ttf</fontPath>
+     </helpsystem>
+
+ 
+       </view>
+    </theme>

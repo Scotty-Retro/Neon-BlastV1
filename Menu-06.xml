@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+   <formatVersion>7</formatVersion>
+
+     <view name="system">	  
+
+<carousel name="systemcarousel">
+<defaultTransition>fade</defaultTransition>
+<zIndex>999</zIndex>
+<maxLogoCount>3</maxLogoCount>
+<color>ffffff00</color>
+<colorEnd>ffffff00</colorEnd>
+<color>00000000</color>
+<colorEnd>00000000</colorEnd>
+<logoSize>0.06 0.06</logoSize>
+<logoScale>3</logoScale>
+<size>1 1</size>
+<pos>0 0.31</pos>
+</carousel>
+
+	       <helpsystem name="help">
+	 <iconColor>FFFFFF</iconColor>
+     <fontSize>0.03</fontSize>
+     <origin>0.5 0.5</origin>
+     <pos>0.5 0.98</pos>
+     <fontPath>./_inc/FS_JC_bsicaunicode.ttf</fontPath>
+     </helpsystem>
+
+	   <image name="wallpaper1" extra="true">
+         <origin>0 0</origin>
+         <pos>0 0</pos>
+         <size>1 1</size>
+	 <path>./default/_inc/wall.jpg</path>
+         <path>./_inc/wallpaper1/${system.theme}.jpg</path>
+		 <zIndex>1</zIndex>
+      </image>
+
+
+      <text name="systemInfo">
+	    <glowColor>000000</glowColor>
+        <pos>-0.003 0.9</pos>
+        <backgroundColor>00000000</backgroundColor>
+        <color>ffffff</color>
+        <fontPath>./_inc/fonts/FS_JC_bsicaunicode.ttf</fontPath>
+	    <fontSize>0.040</fontSize>
+        <zIndex>999</zIndex>
+      </text> 
+
+
+       </view>
+
+</theme>
