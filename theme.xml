@@ -98,23 +98,23 @@ based on:       "Carbon" by Eric Hettervik
   <view name="menu">
    
       <menuText name="menutitle">
-         <fontPath>./_inc/fonts/OpenSans-Bold.ttf</fontPath>
+         <fontPath>./_inc/fonts/FS_JC_bsicaunicode.ttf</fontPath>
          <fontSize>0.04</fontSize>
       </menuText>
 	  
       <menuText name="menufooter">
-         <fontPath>./_inc/fonts/OpenSans-Bold.ttf</fontPath>
+         <fontPath>./_inc/fonts/FS_JC_bsicaunicode.ttf</fontPath>
          <fontSize>0.023</fontSize>
       </menuText>
 	  
     <menuText name="menutext">
-      <fontPath>./_inc/fonts/OpenSans-Bold.ttf</fontPath>
+      <fontPath>./_inc/fonts/FS_JC_bsicaunicode.ttf</fontPath>
       <fontSize>0.029</fontSize>
       <selectorGradientType>horizontal</selectorGradientType>
     </menuText>
 	
     <menuTextSmall name="menutextsmall">
-      <fontPath>./_inc/OpenSans-Bold.ttf</fontPath>
+      <fontPath>./_inc/FS_JC_bsicaunicode.ttf</fontPath>
       <fontSize>0.022</fontSize>
     </menuTextSmall>
 	
@@ -134,5 +134,7 @@ based on:       "Carbon" by Eric Hettervik
 <include name="grid">./grid.xml</include>
 <include name="gamecarousel">./gamecarousel.xml</include>
 <include name="gamebox">./gamebox.xml</include>
+<include name="gametriangle">./gametriangle.xml</include>
+<include name="gamelistcabs">./gamelistcabs.xml</include>
 
    </theme>

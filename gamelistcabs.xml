@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+<formatVersion>7</formatVersion>
+
+   <!---------------------------custom--------------------------------------->
+
+<customView name="Gamelistcabs" inherits="gamecarousel">
+<gamecarousel name="gamecarousel">
+<zIndex>43</zIndex>	      
+<type>vertical_wheel</type>
+<pos>0.31 0</pos>
+<size>1 1</size>
+<logoScale>1.45</logoScale>
+<logoSize>0.150 0.260</logoSize>
+<color>00000000</color>
+<maxLogoCount>30</maxLogoCount>
+<logoRotation>-8</logoRotation>
+<logoRotationOrigin>3.0 0.5</logoRotationOrigin>
+<logoAlignment>center</logoAlignment>   
+<imageSource>marquee</imageSource>
+</gamecarousel> 
+
+   		<image name="md_fanart">
+                <visible>false</visible> 
+		</image>
+
+   		<image name="carouselsquares">
+                <visible>false</visible> 
+		</image>
+
+   		<image name="blackfill">
+                <visible>false</visible> 
+		</image>
+
+   		<image name="char">
+                <visible>false</visible> 
+		</image>
+
+
+     <helpsystem name="help">
+	 <iconColor>FFFFFF</iconColor>
+     <fontSize>0.03</fontSize>
+     <origin>0.5 0.5</origin>
+     <pos>0.5 0.985</pos>
+       <fontPath>./_inc/fonts/FS_JC_bsicaunicode.ttf</fontPath>
+     </helpsystem>
+	 
+
+	  	<video name="md_video">
+        <pos>0.252 0.425</pos>
+        <origin>0.5 0.5</origin>
+        <size>0.3028 0.4118</size>
+			<showSnapshotNoVideo>true</showSnapshotNoVideo> 
+			<showSnapshotDelay>false</showSnapshotDelay>
+		    <loops>3</loops>
+			<delay>0.5</delay> 
+			<effect>none</effect>
+			<zIndex>4</zIndex> 
+		</video>
+
+
+		 <image name="md_image">
+        <pos>0.252 0.425</pos>
+        <origin>0.5 0.5</origin>
+        <size>0.3028 0.4118</size>
+                <zIndex>3</zIndex>         
+           </image> 
+
+ 	  <image name="cab" extra="true">
+         <origin>0 0</origin>
+         <pos>0 0</pos>
+         <size>1 1</size>        
+         <path>./_inc/cabs/${system.theme}.png</path>
+		 <color>ffffff</color>
+         <zIndex>2</zIndex>          
+      </image>
+
+ 	  <image name="cabtop" extra="true">
+         <origin>0 0</origin>
+         <pos>0 0</pos>
+         <size>1 1</size>        
+         <path>./_inc/cabtops/${system.theme}.png</path>
+		 <color>ffffff</color>
+         <zIndex>21</zIndex>          
+      </image>
+
+	
+			<rating name="md_rating">
+ <visible>false</visible> 
+		</rating>
+		
+
+
+   		<image name="md_thumbnail">
+ <visible>false</visible> 
+		</image>
+		
+	  <image name="md_marquee">
+ <visible>false</visible> 
+</image>
+   
+
+	<text name="md_name">
+ <visible>false</visible> 		
+	</text>
+	
+	<image name="logo03" extra="true">
+ <visible>false</visible> 
+	</image>
+	
+	<text name="logoText">
+ <visible>false</visible> 
+    </text>
+   </customView>
+   
+   </theme>

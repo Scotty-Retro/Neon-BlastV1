@@ -77,9 +77,9 @@
         <default>./default/_inc/noise.mp4</default>
         <visible>true</visible>
         <path>{random}</path>               
-        <pos>0.254 0.43</pos>
+        <pos>0.252 0.425</pos>
         <origin>0.5 0.5</origin>
-        <size>0.304 0.411</size>
+       <size>0.3027 0.411</size>
         <delay>0.3</delay>
         <showSnapshotNoVideo>false</showSnapshotNoVideo>
         <showSnapshotDelay>false</showSnapshotDelay>
