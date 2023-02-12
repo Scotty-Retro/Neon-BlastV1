@@ -84,6 +84,15 @@
          <zIndex>21</zIndex>          
       </image>
 
+ 	  <image name="cabtoplogo" extra="true">
+         <origin>0 0</origin>
+         <pos>0 0</pos>
+         <size>1 1</size>        
+         <path>./_inc/cabtoplogos/${system.theme}.png</path>
+		 <color>ffffff</color>
+         <zIndex>999</zIndex>          
+      </image>
+
 	
 			<rating name="md_rating">
  <visible>false</visible> 
