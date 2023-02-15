@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<theme>
+	<formatVersion>7</formatVersion>
+
+
+<view name="splash">
+		<splash name="splash">
+			<backgroundColor>ffffff</backgroundColor>
+		</splash>
+
+		<image name="background">
+			<path>./_inc/assets/splash.jpg</path>
+		</image>
+
+
+		<image name="progressbar">
+			<color>ffffff00</color>
+			<origin>0.5 0.5</origin>
+			 <size>0.69 0.011</size>
+			 <pos>0.51 0.9</pos>
+			<colorEnd>ffffff00</colorEnd>
+			</image>
+		
+		<image name="progressbar:active">
+			<color>ffffff00</color>
+			<colorEnd>ffffff00</colorEnd>
+			<zIndex>7</zIndex>
+		</image>
+		
+		<text name="label">
+			<color>FFFFFF59</color>
+			<origin>0.5 0.5</origin>
+			<alignment>center</alignment>
+	        <fontPath>./_inc/fonts/FS_JC_bsicaunicode.ttf</fontPath>
+			<pos>0.5 0.9</pos>
+			<fontSize>0.08</fontSize>
+			<glowColor>00000018</glowColor>
+			<glowSize>0.1</glowSize>
+			<glowOffset>0</glowOffset>
+		</text>
+	</view>
+
+
+
+
+
+
+
+
+
+
+</theme>
