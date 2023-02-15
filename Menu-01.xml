@@ -61,6 +61,14 @@
 		 <zIndex>1</zIndex>
       </image>
 
+	   <image name="wm" extra="true">
+         <origin>0 0</origin>
+         <pos>0 0</pos>
+         <size>1 1</size>
+	 <path>./_inc/assets/watermark.png</path>
+		 <zIndex>999</zIndex>
+      </image>
+
  	 
 	  <image name="char" extra="true">
 		<pos>-0.05 0</pos>

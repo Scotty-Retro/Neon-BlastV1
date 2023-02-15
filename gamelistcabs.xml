@@ -69,7 +69,8 @@
  	  <image name="cab" extra="true">
          <origin>0 0</origin>
          <pos>0 0</pos>
-         <size>1 1</size>        
+         <size>1 1</size> 
+	 <path>./default/cab-d.png</path>         
          <path>./_inc/cabs/${system.theme}.png</path>
 		 <color>ffffff</color>
          <zIndex>2</zIndex>          
@@ -78,20 +79,21 @@
  	  <image name="cabtop" extra="true">
          <origin>0 0</origin>
          <pos>0 0</pos>
-         <size>1 1</size>        
+         <size>1 1</size> 
+	 <path>./default/cabtop-d.png</path>         
          <path>./_inc/cabtops/${system.theme}.png</path>
 		 <color>ffffff</color>
          <zIndex>21</zIndex>          
       </image>
 
- 	  <image name="cabtoplogo" extra="true">
-         <origin>0 0</origin>
-         <pos>0 0</pos>
-         <size>1 1</size>        
-         <path>./_inc/cabtoplogos/${system.theme}.png</path>
-		 <color>ffffff</color>
-         <zIndex>999</zIndex>          
-      </image>
+
+	<video name="marquees" extra="true">
+       <path>./default/matrix.mp4</path>		
+	<path>./${system.theme}/matrix.m4v</path>	
+         <pos>0.09 0.045</pos>
+         <size>0.325 0.140</size>
+         <zIndex>20</zIndex> 		 
+    </video>
 
 	
 			<rating name="md_rating">
