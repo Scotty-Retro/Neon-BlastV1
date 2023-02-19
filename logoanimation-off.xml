@@ -1,0 +1,10 @@
+<theme>
+   <formatVersion>7</formatVersion>
+
+<view name="system">
+
+         <image name="logo" extra="true">
+     </image>
+
+
+</theme>
