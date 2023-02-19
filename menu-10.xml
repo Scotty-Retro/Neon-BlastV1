@@ -1,0 +1,76 @@
+<theme>
+   <formatVersion>7</formatVersion>
+
+     <view name="system">
+
+     <carousel name="systemcarousel">
+		<type>vertical</type>
+		<pos>0.008 0</pos>
+		<size>1 1</size>
+		<origin>0 0</origin>
+		<color>00000000</color>
+		<logoSize>0.163 0.163</logoSize>
+		<logoAlignment>right</logoAlignment>
+		<maxLogoCount>1</maxLogoCount>
+		<defaultTransition>instant</defaultTransition>	
+		<zIndex>50</zIndex>
+	 </carousel>
+
+	<video name="animatedlogobg" extra="true">
+      <linearSmooth>true</linearSmooth>
+       <path>./default/animatedbg.mp4</path>
+         <path>./_inc/animatedbg/${system.theme}.mp4</path>			
+         <pos>0 0</pos>
+         <size>1 1</size>
+         <zIndex>2</zIndex> 		 
+    </video>
+
+
+     <text name="systemInfo">
+	    <glowColor>000000</glowColor>
+        <pos>-0.25 0.08</pos>
+        <backgroundColor>00000000</backgroundColor>
+        <color>ffffff</color>
+        <fontPath>./_inc/fonts/FS_JC_bsicaunicode.ttf</fontPath>
+	    <fontSize>0.040</fontSize>
+        <zIndex>999</zIndex>
+     </text> 
+
+	   <image name="wm" extra="true">
+         <origin>0 0</origin>
+         <pos>0 0</pos>
+         <size>1 1</size>
+	 <path>./_inc/assets/watermarkr.png</path>
+		 <zIndex>999</zIndex>
+      </image>
+	  
+
+	       <helpsystem name="help">
+	 <iconColor>FFFFFF</iconColor>
+     <fontSize>0.04</fontSize>
+     <origin>0.5 0.5</origin>
+     <pos>0.50 0.98</pos>
+     <fontPath>./_inc/FS_JC_bsicaunicode.ttf</fontPath>
+     </helpsystem>
+		
+      <video name="backgroundvideo" extra="true">
+        <default>./default/_inc/noise.mp4</default>
+        <visible>true</visible>
+        <path>{random}</path>               
+        <pos>0.252 0.6</pos>
+        <origin>0.5 0.5</origin>
+       <size>0.3027 0.411</size>
+        <delay>0.3</delay>
+        <showSnapshotNoVideo>false</showSnapshotNoVideo>
+        <showSnapshotDelay>false</showSnapshotDelay>
+        <color>FFFFFF</color>
+        <storyboard>
+        <animation property="y" from="0.05" begin="0" duration="350" mode="easeOut"/>
+        <animation property="opacity" from="0" to="1" duration="350" mode="easeIn"/>
+        <animation property="scale" from="0" to="1" duration="350" mode="easeOut"/>
+        </storyboard>
+        <zIndex>20</zIndex>
+     </video>
+
+     </view>
+     </theme>

@@ -32,6 +32,7 @@ based on:       "Carbon" by Eric Hettervik
    <include subset="menu" name="Menu 07">./Menu-07.xml</include>
    <include subset="menu" name="Menu 08">./Menu-08.xml</include>
    <include subset="menu" name="Menu 09">./Menu-09.xml</include>
+   <include subset="menu" name="Menu 10">./Menu-10.xml</include>
 
    <include subset="logo" name="neon logos">./neonlogos.xml</include>
 
@@ -49,6 +50,9 @@ based on:       "Carbon" by Eric Hettervik
 
 	<include subset="Animation" name="Animation on">./Animation-on.xml</include>
     <include subset="Animation" name="Animation off">./Animation-off.xml</include>
+
+	<include subset="LogoAnimation" name="logoanimation on">./logoanimation-on.xml</include>
+    <include subset="LogoAnimation" name="logoanimation off">./logoanimation-off.xml</include>
 
 
 

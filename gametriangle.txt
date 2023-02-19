@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+   <formatVersion>7</formatVersion>
+
+     <customview name="gameview-triangle inherits=gamecarousel">	  
+
+<carousel name="gamecarousel">
+<defaultTransition>fade</defaultTransition>
+<zIndex>999</zIndex>
+<maxLogoCount>1</maxLogoCount>
+<color>ffffff00</color>
+<colorEnd>ffffff00</colorEnd>
+<color>00000000</color>
+<colorEnd>00000000</colorEnd>
+<logoSize>0.06 0.06</logoSize>
+<logoScale>3</logoScale>
+<size>1 1</size>
+<pos>0 0.31</pos>
+</carousel>
+
+    <rating name="md_rating">
+     <pos>0.56 0.9</pos>
+      <size>0.03 0.03</size>
+      <filledPath>./main/rating_filled.svg</filledPath>
+      <unfilledPath>./main/rating_empty.svg</unfilledPath>
+    </rating>
+
+
+     <helpsystem name="help">
+	 <iconColor>FFFFFF</iconColor>
+     <fontSize>0.03</fontSize>
+     <origin>0.5 0.5</origin>
+     <pos>0.56 0.985</pos>
+       <fontPath>./_inc/fonts/FS_JC_bsicaunicode.ttf</fontPath>
+     </helpsystem>
+
+	    <image name="md_fanart">
+            <pos>0 0</pos>
+            <origin>0 0</origin>
+            <size>1 1</size>
+	     <storyboard>
+         <animation property="y" from="-2" begin="0" duration="0" mode="easyOut"/>
+         <animation property="scale" to="1.2" begin="350" autoreverse="true" duration="3200" repeat="forever" mode="easyIn"/>
+         <animation property="opacity" from="0" to="1" duration="350" mode="linear"/>
+		 </storyboard>
+            <zIndex>1</zIndex>
+        </image>
+
+   		<image name="md_thumbnail">
+			<origin>0.5 0.5</origin>
+			<pos>0.87 0.77</pos>
+			<maxSize>0.14 0.2</maxSize>
+		<storyboard> 
+        <animation property="y" from="1.01" begin="0" duration="1000" mode="Bump"/>
+        <animation property="scale" to="1.03" begin="1100" autoreverse="true" duration="350" repeat="forever" mode="easyIn"/>
+		</storyboard>
+			<zIndex>900</zIndex>
+		</image>
+
+    <text name="gamecarouselLogoText">
+		<color>FFFFFFFF</color>
+		<glowColor>00000050</glowColor>
+		<glowSize>3</glowSize>
+		<glowOffset>3</glowOffset>
+		<lineSpacing>1.0</lineSpacing>
+        <fontPath>./_inc/fonts/FS_JC_bsicaunicode.ttf</fontPath>
+        <fontSize>0.030</fontSize>
+    </text>
+
+
+	   <image name="menu8" extra="true">
+         <origin>0 0</origin>
+         <pos>0 0</pos>
+         <size>1 1</size>
+	 <path>./default/men8-d.png</path>
+         <path>./_inc/menu8frames/${system.theme}.png</path>
+		 <zIndex>2</zIndex>
+      </image>
+
+
+      <text name="systemInfo">
+	    <glowColor>000000</glowColor>
+        <pos>-0.003 0.9</pos>
+        <backgroundColor>00000000</backgroundColor>
+        <color>ffffff</color>
+        <fontPath>./_inc/fonts/FS_JC_bsicaunicode.ttf</fontPath>
+	    <fontSize>0.040</fontSize>
+        <zIndex>999</zIndex>
+      </text> 
+
+
+	  <image name="char1" extra="true">
+		<pos>-0.05 0</pos>
+		<maxSize>1 1</maxSize>
+		<color>ffffff</color>
+		<path>./default/char-d.png</path>
+		<path>./${system.theme}/char.png</path>
+		<zIndex>998</zIndex>
+	  </image>
+
+
+	 <video name="backgroundvideo8" extra="true">
+        <default>./_inc/assets/noise.mp4</default>
+        <visible>true</visible>
+        <path>{random}</path>   
+        <roundCorners>0.03</roundCorners>             
+        <pos>0.8 0.8</pos>
+        <size>0.3 0.3</size>
+        <origin>0.5 0.5</origin>
+        <showSnapshotNoVideo>true</showSnapshotNoVideo>
+        <showSnapshotDelay>true</showSnapshotDelay>
+        <color>FFFFFF</color>
+        <zIndex>999</zIndex>
+     </video>
+
+
+       </view>
+
+</theme>
