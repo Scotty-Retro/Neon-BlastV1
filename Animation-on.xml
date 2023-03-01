@@ -51,7 +51,6 @@
              <animation property="y" from="-1.647999" to="0.4" duration="2099" autoreverse="false" begin="1.5" mode="linear"/>
 	</storyboard>
 	</video>
-
 </view>
 
 

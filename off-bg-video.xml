@@ -1,0 +1,9 @@
+<theme>
+   <formatVersion>7</formatVersion>
+
+<view name="system">
+	 <video name="custombackgroundvideo" extra="true">
+<visible>false</visible>
+<view>
+
+</theme>
