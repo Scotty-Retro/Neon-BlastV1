@@ -17,7 +17,8 @@
 	 </carousel>
 
 	<video name="animatedmarquee" extra="true">
-       <path>./default/matrix9.mp4</path>			
+       <path>./default/matrix9.mp4</path>
+         <path>./_inc/animatedmarquee/${system.theme}.m4v</path>			
          <pos>0.09 0.045</pos>
          <size>0.325 0.140</size>
          <zIndex>20</zIndex> 		 

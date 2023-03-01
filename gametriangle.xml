@@ -26,20 +26,20 @@
          <pos>0 0</pos>
          <size>1 1</size>
 	 <path>./default/men8-d.png</path>
+         <path>./_inc/menu8frames/${system.theme}-w.svg</path>
          <path>./_inc/menu8frames/${system.theme}.png</path>
 		 <zIndex>3</zIndex>
       </image>
 
-	   <image name="clearlogos" extra="true">
+	   <image name="roundlogos1" extra="true">
          <origin>0 0</origin>
-         <pos>0.14 0.07</pos>
-         <size>0.2 0.2</size>
-         <path>./_inc/clearlogos/${system.theme}.png</path>
-         <path>./_inc/clearlogos/${system.theme}.svg</path>
-	   <storyboard event="activate">
-	   <animation property="opacity" to="1" begin="0" duration="0" mode="linear"/>
-	   <animation property="scale" from="1.1" to="1.2" begin="0" duration="1000" mode="easeOut"/>
-	   </storyboard>
+         <pos>0.02 -0.07</pos>
+         <size>0.2 0.3</size>
+         <path>./_inc/roundlogos/1/${system.theme}.png</path>
+	   <storyboard>
+        <animation property="scale" to="1.06" begin="600" autoreverse="true" duration="1000" repeat="forever" mode="easyIn"/>
+		<animation property="rotation" from= "-1.2" to="1.5" begin="600" autoreverse="true" duration="1200" repeat="forever" mode="easyIn"/>
+		</storyboard>
 		 <zIndex>2</zIndex>
       </image>
 

@@ -98,5 +98,15 @@
         <zIndex>20</zIndex>
      </video>
 
+	 <video name="custombackgroundvideo3" extra="true">
+        <default>./_inc/assets/noise.mp4</default>             
+	  <path>./_inc/videos/${system.theme}.mp4</path>
+        <pos>0 0</pos>
+        <origin>0 0</origin>
+        <size>1 1</size>
+        <delay>0.3</delay>
+        <zIndex>2</zIndex>
+     </video>
+
      </view>
      </theme>
