@@ -41,7 +41,7 @@
          <size>1 1</size>
 	 <path>./default/men8-d.png</path>
          <path>./_inc/menu8frames/${system.theme}.png</path>
-		 <zIndex>3</zIndex>
+		 <zIndex>2</zIndex>
       </image>
 
 
@@ -79,6 +79,7 @@
         <color>FFFFFF</color>
         <zIndex>999</zIndex>
      </video>
+
 
        </view>
 
