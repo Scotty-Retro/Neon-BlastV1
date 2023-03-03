@@ -35,6 +35,7 @@
 		 <zIndex>1</zIndex>
       </image>
 
+
       <text name="systemInfo">
 	    <glowColor>000000</glowColor>
         <pos>-0.003 0.9</pos>

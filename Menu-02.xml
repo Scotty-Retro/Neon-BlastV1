@@ -80,7 +80,7 @@
         <zIndex>2</zIndex>
      </video>
 
-	 <video name="custombackgroundvideo2" extra="static">
+	 <video name="custombackgroundvideo10" extra="true">
         <default>./_inc/assets/noise.mp4</default>  
         <roundCorners>0.04</roundCorners>             
 	  <path>./_inc/videos/${system.theme}.mp4</path>

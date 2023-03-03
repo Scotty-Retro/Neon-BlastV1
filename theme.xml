@@ -34,10 +34,12 @@ based on:       "Carbon" by Eric Hettervik
    <include subset="menu" name="Menu 09">./Menu-09.xml</include>
    <include subset="menu" name="Menu 10">./Menu-10.xml</include>
 
-   <include subset="logo" name="neon logos rectangle">./neonlogos.xml</include>
-   <include subset="logo" name="Round logos">./logos3.xml</include>
-   <include subset="logo" name="Round logos(alt1)">./logos2.xml</include>
-   <include subset="logo" name="Round logos(alt2)">./logos4.xml</include>
+   <include subset="logo" name="neon logos">./neonlogos.xml</include>
+   <include subset="logo" name="neon logos2">./neonlogos2.xml</include>
+   <include subset="logo" name="neon logos3">./neonlogos3.xml</include>
+   <include subset="logo" name="neon logos4">./neonlogos4.xml</include>
+   <include subset="logo" name="neon logos5">./logos5.xml</include>
+   <include subset="logo" name="neon logos6">./logos6.xml</include>
 
    <include subset="wallpapers" name="darkwallpapers">./darkwallpapers.xml</include>
    <include subset="wallpapers" name="brightwallpapers">./brightwallpapers.xml</include>
@@ -56,9 +58,6 @@ based on:       "Carbon" by Eric Hettervik
 
 	<include subset="Custom VIDEO" name="Video off">./off-bg-video.xml</include>
 	<include subset="Custom VIDEO" name="Video on">./on-bg-video.xml</include>
-
-	<include subset="LogoAnimation" name="logoanimation on">./logoanimation-on.xml</include>
-    <include subset="LogoAnimation" name="logoanimation off">./logoanimation-off.xml</include>
 
 
 
@@ -146,6 +145,5 @@ based on:       "Carbon" by Eric Hettervik
 <include name="gamebox">./gamebox.xml</include>
 <include name="gametriangle">./gametriangle.xml</include>
 <include name="gamelistcabs">./gamelistcabs.xml</include>
-<include name="gamelistvideo">./gamelistvideo.xml</include>
 
    </theme>

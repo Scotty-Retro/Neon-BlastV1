@@ -45,7 +45,9 @@
 	 <path>./default/_inc/wall.jpg</path>
          <path>./_inc/wallpaper1/${system.theme}.jpg</path>
 		 <zIndex>1</zIndex>
-      </image>  
+      </image>
+
+	  
 	 	  
 	       <helpsystem name="help">
 	 <iconColor>FFFFFF</iconColor>
