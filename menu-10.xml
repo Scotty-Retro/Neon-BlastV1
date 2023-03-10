@@ -3,36 +3,33 @@
 
      <view name="system">
 
-     <carousel name="systemcarousel">
-		<type>vertical</type>
-		<pos>0.008 0</pos>
-		<size>1 1</size>
-		<origin>0 0</origin>
-		<color>00000000</color>
-		<logoSize>0.163 0.163</logoSize>
-		<logoAlignment>right</logoAlignment>
-		<maxLogoCount>1</maxLogoCount>
-		<defaultTransition>instant</defaultTransition>	
-		<zIndex>50</zIndex>
-	 </carousel>
-
-	<video name="animatedlogobg" extra="true">
-      <linearSmooth>true</linearSmooth>
-       <path>./default/animatedbg.mp4</path>
-         <path>./_inc/animatedbg/${system.theme}.mp4</path>			
-         <pos>0 0</pos>
-         <size>1 1</size>
-         <zIndex>2</zIndex> 		 
-    </video>
+<carousel name="systemcarousel">
+<defaultTransition>fade</defaultTransition>
+<zIndex>999</zIndex>
+<maxLogoCount>7</maxLogoCount>
+<color>ffffff00</color>
+<colorEnd>ffffff00</colorEnd>
+<color>00000000</color>
+<colorEnd>00000000</colorEnd>
+<logoSize>0.15 0.15</logoSize>
+<logoScale>3</logoScale>
+<size>1 1</size>
+<pos>0 0.20</pos>
+</carousel>
 
 
      <text name="systemInfo">
 	    <glowColor>000000</glowColor>
-        <pos>-0.25 0.08</pos>
+        <pos>-0.38 0.3</pos>
         <backgroundColor>00000000</backgroundColor>
         <color>ffffff</color>
         <fontPath>./_inc/fonts/FS_JC_bsicaunicode.ttf</fontPath>
 	    <fontSize>0.040</fontSize>
+        <storyboard>
+        <animation property="y" from="0.05" begin="0" duration="750" mode="easeOut"/>
+        <animation property="opacity" from="0" to="1" duration="750" mode="easeIn"/>
+        <animation property="scale" from="0" to="1" duration="750" mode="easeOut"/>
+        </storyboard>
         <zIndex>999</zIndex>
      </text> 
 
@@ -42,6 +39,18 @@
          <size>1 1</size>
 	 <path>./_inc/assets/watermarkr.png</path>
 		 <zIndex>999</zIndex>
+      </image>
+
+	   <image name="clearlogo" extra="true">
+         <origin>0 0</origin>
+         <pos>0 0</pos>
+         <size>0.26 0.25</size>
+	 <path>./_inc/clearlogos/${system.theme}.png</path>
+		 <zIndex>999</zIndex>
+		<storyboard> 
+        <animation property="y" from="1.01" begin="0" duration="1000" mode="Bump"/>
+        <animation property="scale" to="1.02" begin="1100" autoreverse="true" duration="300" repeat="forever" mode="easyIn"/>
+		</storyboard>
       </image>
 	  
 
@@ -57,7 +66,7 @@
         <default>./default/_inc/noise.mp4</default>
         <visible>true</visible>
         <path>{random}</path>               
-        <pos>0.3 0.6</pos>
+        <pos>0.5 0.3</pos>
         <origin>0.5 0.5</origin>
         <size>0.5 0.5</size>
         <delay>0.3</delay>
