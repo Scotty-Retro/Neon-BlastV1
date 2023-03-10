@@ -12,10 +12,10 @@
 <colorEnd>ffffff00</colorEnd>
 <color>00000000</color>
 <colorEnd>00000000</colorEnd>
-<logoSize>0.06 0.06</logoSize>
+<logoSize>0.11 0.11</logoSize>
 <logoScale>3</logoScale>
 <size>1 1</size>
-<pos>0 0.31</pos>
+<pos>0 0.22</pos>
 </carousel>
 
 	       <helpsystem name="help">
@@ -25,6 +25,19 @@
      <pos>0.5 0.98</pos>
      <fontPath>./_inc/FS_JC_bsicaunicode.ttf</fontPath>
      </helpsystem>
+
+    <image name="randomboxart" extra="true">
+      <path>{random:thumbnail}</path>
+			<origin>0.5 0.5</origin>
+			<pos>0.5 0.5</pos>
+			<maxSize>0.28 0.38</maxSize>
+		<storyboard> 
+        <animation property="x" from="1.01" begin="0" duration="750" mode="Bump"/>
+        <animation property="scale" to="1.03" begin="1100" autoreverse="true" duration="350" repeat="forever" mode="easyIn"/>
+         <animation property="opacity" from="0" to="1" duration="390" mode="linear"/>
+		</storyboard>
+      <zIndex>2</zIndex>
+    </image>
 
 	   <image name="wallpaper1" extra="true">
          <origin>0 0</origin>
@@ -41,7 +54,7 @@
          <size>1 1</size>
 	 <path>./default/men8-d.png</path>
          <path>./_inc/menu8frames/${system.theme}.png</path>
-		 <zIndex>2</zIndex>
+		 <zIndex>4</zIndex>
       </image>
 
 
@@ -71,8 +84,8 @@
         <visible>true</visible>
         <path>{random}</path>   
         <roundCorners>0.03</roundCorners>             
-        <pos>0.8 0.8</pos>
-        <size>0.3 0.3</size>
+        <pos>0.81 0.75</pos>
+        <size>0.35 0.35</size>
         <origin>0.5 0.5</origin>
         <showSnapshotNoVideo>true</showSnapshotNoVideo>
         <showSnapshotDelay>true</showSnapshotDelay>

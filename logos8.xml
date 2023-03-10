@@ -1,0 +1,17 @@
+<theme>
+   <formatVersion>7</formatVersion>
+
+      <view name="system">
+
+     <image name="logo">
+       <linearSmooth>true</linearSmooth>
+         <path>./_inc/charcards/${system.theme}.png</path>
+	   <storyboard event="activate" repeatAt="1">
+        <animation property="scale" to="1.06" begin="600" autoreverse="true" duration="1000" repeat="forever" mode="easyIn"/>
+		<animation property="rotation" from= "-1.1" to="1.5" begin="600" autoreverse="true" duration="1200" repeat="forever" mode="easyIn"/>
+		</storyboard>
+	   </image>
+       </view>
+
+
+    </theme>
