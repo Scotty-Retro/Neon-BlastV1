@@ -84,13 +84,13 @@
         <visible>true</visible>
         <path>{random}</path>   
         <roundCorners>0.03</roundCorners>             
-        <pos>0.81 0.75</pos>
-        <size>0.35 0.35</size>
+        <pos>0.82 0.75</pos>
+        <size>0.32 0.32</size>
         <origin>0.5 0.5</origin>
         <showSnapshotNoVideo>true</showSnapshotNoVideo>
         <showSnapshotDelay>true</showSnapshotDelay>
         <color>FFFFFF</color>
-        <zIndex>999</zIndex>
+        <zIndex>10</zIndex>
      </video>
 
 
