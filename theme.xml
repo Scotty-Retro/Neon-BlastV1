@@ -58,6 +58,9 @@ based on:       "Carbon" by Eric Hettervik
 	<include subset="Animation" name="Animation on">./Animation-on.xml</include>
     <include subset="Animation" name="Animation off">./Animation-off.xml</include>
 
+	<include subset="neon blast flicker" name="flicker on">./flicker-on.xml</include>
+    <include subset="neon blast flicker" name="flicker off">./flicker-off.xml</include>
+
 	<include subset="Custom VIDEO" name="Video off">./off-bg-video.xml</include>
 	<include subset="Custom VIDEO" name="Video on">./on-bg-video.xml</include>
 

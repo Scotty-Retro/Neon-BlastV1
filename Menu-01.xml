@@ -41,6 +41,19 @@
          <zIndex>300</zIndex>          
        </image> 
 
+	  <image name="neonblast" extra="true">
+         <origin>0 0</origin>
+         <pos>0 0</pos>
+         <size>1 1</size> 
+		<path>./default/neonb-d.png</path>
+		 <color>ffffff</color>
+       <delay>1.5</delay>
+	     <storyboard>
+         <animation property="opacity" from="0" to="1" duration="500" repeat="forever" mode="linear"/>
+         </storyboard>
+         <zIndex>999</zIndex>          
+       </image> 
+
 
 	   <image name="wallpaper1" extra="true">
          <origin>0 0</origin>
@@ -49,14 +62,6 @@
 	 <path>./default/_inc/wall.jpg</path>
          <path>./_inc/wallpaper1/${system.theme}.jpg</path>
 		 <zIndex>1</zIndex>
-      </image>
-
-	   <image name="wm" extra="true">
-         <origin>0 0</origin>
-         <pos>0 0</pos>
-         <size>1 1</size>
-	 <path>./_inc/assets/watermark.png</path>
-		 <zIndex>999</zIndex>
       </image>
 
  	 

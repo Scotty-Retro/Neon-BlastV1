@@ -91,7 +91,7 @@
      </helpsystem>
 		
       <video name="backgroundvideo" extra="true">
-        <default>./default/_inc/noise.mp4</default>
+        <default>./_inc/assets/noise.mp4</default>
         <visible>true</visible>
         <path>{random}</path>               
         <pos>0.252 0.425</pos>
