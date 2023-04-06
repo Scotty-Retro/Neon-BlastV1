@@ -42,6 +42,7 @@ based on:       "Carbon" by Eric Hettervik
    <include subset="logo" name="neon logos6">./logos6.xml</include>
    <include subset="logo" name="neon logos7">./logos7.xml</include>
    <include subset="logo" name="char logos">./logos8.xml</include>
+   <include subset="logo" name="glass logos">./glasslogos.xml</include>
 
    <include subset="wallpapers" name="darkwallpapers">./darkwallpapers.xml</include>
    <include subset="wallpapers" name="brightwallpapers">./brightwallpapers.xml</include>
