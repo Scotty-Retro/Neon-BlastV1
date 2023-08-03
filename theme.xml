@@ -33,6 +33,9 @@ based on:       "Carbon" by Eric Hettervik
    <include subset="menu" name="Menu 08">./Menu-08.xml</include>
    <include subset="menu" name="Menu 09">./Menu-09.xml</include>
    <include subset="menu" name="Menu 10">./Menu-10.xml</include>
+   <include subset="menu" name="Menu 11">./Menu-11.xml</include>
+   <include subset="menu" name="Menu 12">./Menu-12.xml</include>
+   <include subset="menu" name="Menu 13">./Menu-13.xml</include>
 
    <include subset="logo" name="neon logos">./neonlogos.xml</include>
    <include subset="logo" name="neon logos2">./neonlogos2.xml</include>
@@ -42,11 +45,11 @@ based on:       "Carbon" by Eric Hettervik
    <include subset="logo" name="neon logos6">./logos6.xml</include>
    <include subset="logo" name="neon logos7">./logos7.xml</include>
    <include subset="logo" name="char logos">./logos8.xml</include>
-   <include subset="logo" name="glass logos">./glasslogos.xml</include>
 
    <include subset="wallpapers" name="darkwallpapers">./darkwallpapers.xml</include>
    <include subset="wallpapers" name="brightwallpapers">./brightwallpapers.xml</include>
    <include subset="wallpapers" name="echedglowwallpapers">./etchedglowwallpapers.xml</include>
+   <include subset="wallpapers" name="nowallpapers">./nowallpapers.xml</include>
 
     <include subset="Shader" name="Shader off">./art/shaders/off.xml</include>
     <include subset="Shader" name="Shader 01">./art/shaders/scanlines.xml</include>
@@ -151,5 +154,6 @@ based on:       "Carbon" by Eric Hettervik
 <include name="gamebox">./gamebox.xml</include>
 <include name="gametriangle">./gametriangle.xml</include>
 <include name="gamelistcabs">./gamelistcabs.xml</include>
+<include name="gameroulette">./gameroulette.xml</include>
 
    </theme>

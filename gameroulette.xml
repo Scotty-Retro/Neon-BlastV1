@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+<formatVersion>7</formatVersion>
+
+<!---------------------------custom------------------------------------- -->
+
+ <customView name="gameroulette" inherits="gamecarousel">
+<gamecarousel name="gamecarousel">
+          <zIndex>43</zIndex>	      
+          <type>vertical_wheel</type>
+          <pos>-0.15 0</pos>
+          <size>1 1</size>
+          <logoSize>0.16 0.16</logoSize>
+          <color>00000000</color>
+          <maxLogoCount>14</maxLogoCount>
+          <logoRotation>-20</logoRotation>
+          <logoRotationOrigin>1.80 0.5</logoRotationOrigin>
+          <logoAlignment>center</logoAlignment> 
+</gamecarousel> 
+
+    <rating name="md_rating">
+     <pos>0.56 0.9</pos>
+      <size>0.03 0.03</size>
+      <filledPath>./main/rating_filled.svg</filledPath>
+      <unfilledPath>./main/rating_empty.svg</unfilledPath>
+    </rating>
+
+
+     <helpsystem name="help">
+	 <iconColor>FFFFFF</iconColor>
+     <fontSize>0.03</fontSize>
+     <origin>0.5 0.5</origin>
+     <pos>0.56 0.985</pos>
+       <fontPath>./_inc/fonts/FS_JC_bsicaunicode.ttf</fontPath>
+     </helpsystem>
+	 
+      <image name="carouselsquares" extra="true">
+         <origin>0 0</origin>
+         <pos>-0.7 0</pos>
+         <size>1 1</size>        
+    <path>./default/carouselsquare-d.png</path>
+    <path>./_inc/carouselframes/${system.theme}.png</path>
+         <zIndex>42</zIndex>          
+      </image> 
+
+
+      <image name="blackfill" extra="true">
+         <origin>0 0</origin>
+         <pos>-0.7 0</pos>
+         <size>1 1</size>        
+    <path>./_inc/carouselframes/blackfill.png</path>
+         <zIndex>2</zIndex>          
+      </image> 
+
+      <text name="md_description">
+         <pos>0 0.074</pos>
+         <size>0.25 0.79</size>
+         <color>ffffff</color>
+         <alignment>left</alignment>   
+         <zIndex>5</zIndex>         
+      </text>
+
+	    <image name="md_fanart">
+            <pos>0 0</pos>
+            <origin>0 0</origin>
+            <size>1 1</size>
+	     <storyboard>
+         <animation property="y" from="-2" begin="0" duration="0" mode="easyOut"/>
+         <animation property="scale" to="1.2" begin="350" autoreverse="true" duration="3200" repeat="forever" mode="easyIn"/>
+         <animation property="opacity" from="0" to="1" duration="350" mode="linear"/>
+		 </storyboard>
+            <zIndex>1</zIndex>
+        </image>
+
+	<image name="black" extra="true">
+        <pos>0.3 0.15</pos>
+        <maxSize>0.85 0.85</maxSize>
+        <origin>0 0</origin>
+		<path>./_inc/menu2frames/black.png</path>
+		<color>ffffff</color>
+	    <zIndex>988</zIndex>
+	</image>
+    
+    <text name="gamecarouselLogoText">
+		<color>FFFFFFFF</color>
+		<glowColor>00000050</glowColor>
+		<glowSize>3</glowSize>
+		<glowOffset>3</glowOffset>
+		<lineSpacing>1.0</lineSpacing>
+        <fontPath>./_inc/fonts/FS_JC_bsicaunicode.ttf</fontPath>
+        <fontSize>0.030</fontSize>
+    </text>	
+	
+<image name="pointer" extra="true">
+<pos>0.022 0.50</pos>
+<origin>0.5 0.5</origin>
+<color>ffffffD9</color>
+<size>0.045 0.145</size>
+<path>./art/sistemas/pointerl/default.png</path>
+<path>./art/sistemas/pointerl/${system.theme}.png</path>
+<zIndex>60</zIndex>
+<zIndex>999</zIndex>
+</image>
+
+ 
+        	<image name="md_thumbnail">
+          <visible>false</visible> 
+		</image>
+
+        	<image name="char">
+          <visible>false</visible> 
+		</image>
+		
+          	<image name="md_marquee">
+          <visible>false</visible> 
+		</image>
+
+ <image name="logo03" extra="true">
+        <pos>0.76 0.01</pos>
+        <maxSize>0.16 0.16</maxSize>
+		<path>./default/_inc/logo.png</path>
+		<path>./_inc/logos/${system.theme}.png</path>
+		<color>ffffff</color>
+		<storyboard> 
+        <animation property="scale" to="1.06" begin="600" autoreverse="true" duration="1000" repeat="forever" mode="easyIn"/>
+		<animation property="rotation" from= "-1.2" to="1.5" begin="600" autoreverse="true" duration="1200" repeat="forever" mode="easyIn"/>
+		</storyboard>
+	    <zIndex>900</zIndex>
+	</image>
+ 
+	
+     <video name="md_video">
+		<color>ffffff</color>
+       <pos>0.72 0.485</pos>
+        <origin>0.5 0.5</origin>
+        <size>0.515 0.5</size>
+        <delay>0.3</delay>
+		<effect>none</effect>		 
+        <showSnapshotNoVideo>false</showSnapshotNoVideo>
+        <showSnapshotDelay>true</showSnapshotDelay>
+		<zIndex>989</zIndex>
+     </video> 
+
+	<image name="menu13frames" extra="true">
+        <pos>0.3 0.15</pos>
+        <maxSize>0.85 0.85</maxSize>
+        <origin>0 0</origin>
+		<path>./_inc/menu2frames/menu2-d.png</path>
+		<path>./_inc/menu2frames/${system.theme}.png</path>
+		<color>ffffff</color>
+	    <zIndex>999</zIndex>
+	</image>
+	
+	
+		<text name="logoText">
+		<pos>0.691 0.444</pos>
+	    <fontSize>0.11</fontSize>
+		<fontPath>./_inc/fonts/FS_JC_bsicaunicode.ttf</fontPath>
+	    <size>0.57 0.1</size>
+		<alignment>center</alignment>
+        <color>FFFFFFB3</color>
+        <forceUppercase>1</forceUppercase>
+	    <rotation>-90</rotation>   
+	    <zIndex>999</zIndex>
+    </text> 
+   
+</customView>
+
+   
+   </theme>

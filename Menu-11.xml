@@ -1,0 +1,94 @@
+<theme>
+   <formatVersion>7</formatVersion>
+
+      <view name="system">
+
+         <carousel name="systemcarousel">
+          <zIndex>43</zIndex>	      
+          <type>vertical_wheel</type>
+          <pos>-0.4 0</pos>
+          <size>1 1</size>
+          <logoSize>0.155 0.155</logoSize>
+          <color>00000000</color>
+          <maxLogoCount>10</maxLogoCount>
+          <logoRotation>-20</logoRotation>
+          <logoRotationOrigin>2.80 0.5</logoRotationOrigin>
+          <logoAlignment>center</logoAlignment>       
+         </carousel>
+
+
+      <text name="systemInfo">
+	    <glowColor>000000</glowColor>
+        <pos>0.1 0.84</pos>
+        <backgroundColor>00000000</backgroundColor>
+        <color>ffffff</color>
+	    <rotation>-4</rotation> 
+        <fontPath>./_inc/fonts/FS_JC_bsicaunicode.ttf</fontPath>
+	    <fontSize>0.040</fontSize>
+        <zIndex>999</zIndex>
+      </text> 
+	  
+	   <image name="wallpaper1" extra="true">
+         <origin>0 0</origin>
+         <pos>0 0</pos>
+         <size>1 1</size>
+	 <path>./default/_inc/wall.jpg</path>
+         <path>./_inc/wallpaper1/${system.theme}.jpg</path>
+		 <zIndex>1</zIndex>
+      </image>
+
+	  <image name="player" extra="true">
+         <origin>0 0</origin>
+         <pos>0.1 0</pos>
+         <size>1 1</size> 
+         <path>./_inc/menuframes/default.png</path>       
+         <path>./_inc/menuframes/${system.theme}.png</path>
+		 <color>ffffff</color>
+	     <storyboard>
+         <animation property="opacity" from="0" to="1" duration="1500" mode="easeIn"/>
+         </storyboard>
+         <zIndex>300</zIndex>          
+       </image> 
+
+	 <video name="backgroundvideo" extra="true">
+        <default>./_inc/assets/noise.mp4</default>
+        <visible>true</visible>
+        <path>{random}</path>  
+        <rotation>-4</rotation>  
+        <roundCorners>0.04</roundCorners>             
+        <pos>0.55 0.485</pos>
+        <origin>0.5 0.5</origin>
+        <size>0.4860 0.682</size>
+        <delay>0.3</delay>
+        <showSnapshotNoVideo>false</showSnapshotNoVideo>
+        <showSnapshotDelay>false</showSnapshotDelay>
+        <color>FFFFFF</color>
+        <storyboard>
+        <animation property="y" from="0.05" begin="0" duration="350" mode="easeOut"/>
+        <animation property="opacity" from="0" to="1" duration="550" mode="easeIn"/>
+        <animation property="scale" from="0" to="1" duration="350" mode="easeOut"/>
+        </storyboard>
+        <zIndex>200</zIndex>
+     </video>
+
+ 	 
+	  <image name="char3" extra="true">
+		<pos>0.7 0.3</pos>
+		<maxSize>0.5 0.5</maxSize>
+		<color>ffffff</color>
+		<path>./default/char-d.png</path>
+		<path>./${system.theme}/char.png</path>
+		<zIndex>998</zIndex>
+	  </image>
+	  
+	 	  
+	       <helpsystem name="help">
+	 <iconColor>FFFFFF</iconColor>
+     <fontSize>0.03</fontSize>
+     <origin>0.5 0.5</origin>
+     <pos>0.47 0.98</pos>
+     <fontPath>./_inc/FS_JC_bsicaunicode.ttf</fontPath>
+     </helpsystem>
+ 
+       </view>
+    </theme>
