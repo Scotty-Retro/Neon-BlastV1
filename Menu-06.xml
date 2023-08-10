@@ -13,9 +13,9 @@
 <color>00000000</color>
 <colorEnd>00000000</colorEnd>
 <logoSize>0.06 0.06</logoSize>
-<logoScale>3</logoScale>
+<logoScale>2</logoScale>
 <size>1 1</size>
-<pos>0 0.31</pos>
+<pos>0 0.2</pos>
 </carousel>
 
 	       <helpsystem name="help">

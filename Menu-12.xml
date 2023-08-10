@@ -10,7 +10,7 @@
           <size>1 1</size>
           <logoSize>0.12 0.12</logoSize>
           <color>00000000</color>
-          <maxLogoCount>14</maxLogoCount>
+          <maxLogoCount>50</maxLogoCount>
           <logoRotation>-20</logoRotation>
           <logoRotationOrigin>1.80 0.5</logoRotationOrigin>
           <logoAlignment>center</logoAlignment>       

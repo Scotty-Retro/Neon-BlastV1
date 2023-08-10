@@ -44,12 +44,15 @@ based on:       "Carbon" by Eric Hettervik
    <include subset="logo" name="neon logos5">./logos5.xml</include>
    <include subset="logo" name="neon logos6">./logos6.xml</include>
    <include subset="logo" name="neon logos7">./logos7.xml</include>
+   <include subset="logo" name="neon square logos">./squares.xml</include>
    <include subset="logo" name="char logos">./logos8.xml</include>
 
    <include subset="wallpapers" name="darkwallpapers">./darkwallpapers.xml</include>
    <include subset="wallpapers" name="brightwallpapers">./brightwallpapers.xml</include>
    <include subset="wallpapers" name="echedglowwallpapers">./etchedglowwallpapers.xml</include>
    <include subset="wallpapers" name="nowallpapers">./nowallpapers.xml</include>
+   <include subset="wallpapers" name="cubewallpapers">./cube.xml</include>
+   <include subset="wallpapers" name="glasswallpapers">./glass.xml</include>
 
     <include subset="Shader" name="Shader off">./art/shaders/off.xml</include>
     <include subset="Shader" name="Shader 01">./art/shaders/scanlines.xml</include>
